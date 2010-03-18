@@ -9,6 +9,11 @@ official release is several years old.
 
 svn checkout http://feedparser.googlecode.com/svn/trunk/ feedparser-read-only
 
+I tend to just drop this in to my pip requirements.txt file:
+
+-e svn+http://feedparser.googlecode.com/svn/trunk/feedparser#egg=feedparser
+-e git://github.com/simonw/django-feedstream.git#egg=django-feedstream
+
 Usage:
 
 Use the admin to add a FeedType with name "Twitter" and template:
